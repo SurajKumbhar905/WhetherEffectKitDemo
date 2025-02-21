@@ -9,15 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        GeometryReader{proxy in
+            TabView{
+                let topEdge = proxy.safeAreaInsets.top + 60
+                Rainy(topEdge : topEdge)
+                    .ignoresSafeArea()
+                
+                
+                WinterView(topEdge : topEdge)
+                    .ignoresSafeArea()
+                
+                SunnyView(topEdge : topEdge)
+                    .ignoresSafeArea()
+            }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
         }
-        .padding()
+        .ignoresSafeArea(.all)
+        
+        
     }
+    
+    
+    
 }
+
 
 #Preview {
     ContentView()

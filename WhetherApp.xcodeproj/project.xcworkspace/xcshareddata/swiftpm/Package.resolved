@@ -1,0 +1,15 @@
+{
+  "originHash" : "f1fe1fc96851130932fc3f4bdda2fa7f99048a91728daaef6b7b7c4c1fca46cf",
+  "pins" : [
+    {
+      "identity" : "whethereffectkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SurajKumbhar905/WhetherEffectKit.git",
+      "state" : {
+        "revision" : "29e27bdda55915fd5a37128f69b8947e8b02a9d0",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

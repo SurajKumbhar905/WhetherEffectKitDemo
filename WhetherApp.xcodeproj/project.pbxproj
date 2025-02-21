@@ -3,19 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		443808D62D6888FB0041EB24 /* WhetherEffectKit in Frameworks */ = {isa = PBXBuildFile; productRef = 443808D52D6888FB0041EB24 /* WhetherEffectKit */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4455DCC02D64B188004B6E57 /* WhetherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhetherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4455DCC22D64B188004B6E57 /* WhetherApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WhetherApp;
-			sourceTree = "<group>";
-		};
+		4455DCC22D64B188004B6E57 /* WhetherApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WhetherApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,17 +23,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443808D62D6888FB0041EB24 /* WhetherEffectKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		443808732D686D640041EB24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4455DCB72D64B188004B6E57 = {
 			isa = PBXGroup;
 			children = (
 				4455DCC22D64B188004B6E57 /* WhetherApp */,
 				4455DCC12D64B188004B6E57 /* Products */,
+				443808732D686D640041EB24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +74,7 @@
 			);
 			name = WhetherApp;
 			packageProductDependencies = (
+				443808D52D6888FB0041EB24 /* WhetherEffectKit */,
 			);
 			productName = WhetherApp;
 			productReference = 4455DCC02D64B188004B6E57 /* WhetherApp.app */;
@@ -86,6 +96,7 @@
 				};
 			};
 			buildConfigurationList = 4455DCBB2D64B188004B6E57 /* Build configuration list for PBXProject "WhetherApp" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,7 +105,9 @@
 			);
 			mainGroup = 4455DCB72D64B188004B6E57;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				443808D42D6888FB0041EB24 /* XCRemoteSwiftPackageReference "WhetherEffectKit" */,
+			);
 			productRefGroup = 4455DCC12D64B188004B6E57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhetherApp/Preview Content\"";
-				DEVELOPMENT_TEAM = ZL9DDXABC9;
+				DEVELOPMENT_TEAM = H8LR95WJN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -260,12 +273,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = surajkumbhar.WhetherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.SteigenHealthApp-Staging-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -281,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhetherApp/Preview Content\"";
-				DEVELOPMENT_TEAM = ZL9DDXABC9;
+				DEVELOPMENT_TEAM = H8LR95WJN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -289,12 +303,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = surajkumbhar.WhetherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.SteigenHealthApp-Staging-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,6 +339,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		443808D42D6888FB0041EB24 /* XCRemoteSwiftPackageReference "WhetherEffectKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SurajKumbhar905/WhetherEffectKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		443808D52D6888FB0041EB24 /* WhetherEffectKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 443808D42D6888FB0041EB24 /* XCRemoteSwiftPackageReference "WhetherEffectKit" */;
+			productName = WhetherEffectKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4455DCB82D64B188004B6E57 /* Project object */;
 }
